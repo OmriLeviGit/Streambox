@@ -1,0 +1,56 @@
+.commentsWrapper {
+  padding: 0px 30px;
+  width: 100%;
+}
+
+.profileImage {
+  margin: 10px;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.addCommentWrapper {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.addCommentWrapper input {
+  flex-grow: 1;
+  margin: 0px 10px;
+}
+
+input {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+.button,
+.buttonDisabled {
+  height: fit-content;
+  margin-right: 5px;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.button {
+  background-color: rgba(0, 34, 255, 0.7);
+  border-color: rgba(0, 34, 255, 0.7);
+  color: white;
+  cursor: pointer;
+}
+
+.buttonDisabled {
+  background-color: rgba(149, 149, 153, 0.934);
+  border-color: rgba(149, 149, 153, 0.934);
+  color: black;
+}

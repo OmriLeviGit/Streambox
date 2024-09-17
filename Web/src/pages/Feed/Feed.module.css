@@ -1,0 +1,35 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+
+.LeftMenu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.FeedContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+}
+
+.categories {
+  height: fit-content;
+  overflow-x: scroll;
+}
+
+.videoGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}

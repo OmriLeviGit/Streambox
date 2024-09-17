@@ -1,0 +1,9 @@
+.darkModeBtnSignup {
+  display: flex;
+  justify-content: end;
+}
+
+.signupWrapper {
+  display: flex;
+  justify-content: center;
+}
