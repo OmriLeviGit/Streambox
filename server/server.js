@@ -10,6 +10,7 @@ const feedRouter = require("./routes/feedRoutes");
 const userRouter = require("./routes/userRoutes");
 const tokenRouter = require("./routes/tokenRoutes");
 
+require("dotenv").config({ path: `./config/.env.public` });
 require("dotenv").config({ path: `./config/.env.local` });
 
 const app = express();
