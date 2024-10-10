@@ -14,7 +14,7 @@ is not actively maintained, and some aspects may not align with my current appro
 services. Available as both a web application and an Android app, Streambox allows users to easily upload, view, and
 interact with video content.
 
-For more detailed information, please refer to the [Streambox Wiki](Wiki\Wiki.md).
+For more detailed information, please refer to the [Streambox Wiki](Wiki/Wiki.md).
 
 ## Some Features
 
